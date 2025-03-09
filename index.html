@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="shortcut icon" type="imagex/png" href="./assets/icon.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>Seu Burguer</title>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <a href="/" class="logo"> <img src="/assets/logo.png" alt="Seu Burguer logo"></a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home">Home</a></li>
+                <li class="nav-item"><a href="#">Sobre nós</a></li>
+                <li class="nav-item"><a href="#cardapio">Cardápio</a></li>
+                <li class="nav-item"><a href="#">Contato</a></li>
+                <i class='bx bx-search'></i>
+            </ul>
+            <div class="menu-icon">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1 class="text-h1">Aprecie cada mordida, celebre cada sabor.</h1>
+            <p>Rua Primeiro de Março, Rio de Janeiro - RJ</p>
+            <div>
+                <p id="date">Seg à Dom - 18:00 às 23:00</p>
+            </div>
+            <a href="#cardapio" class="home-btn">Peça já!</a>
+        </div>
+        <div class="home-img">
+            <img src="/assets/home.png" alt="hamburguer">
+        </div>
+    </section>
+
+    <section class="cardapio" id="cardapio">
+
+        <h2>Conheça nosso cardápio</h2>
+        <p class="descricao-cardapio">Imagens meramente ilustrativas.</p>
+
+        <div class="menu-container">
+            <div class="menu-item">
+                
+                <img src="./assets/hamb-1.png" alt="Lil Burguer" class="item-image">
+                <div class="item-details">
+                    
+                    <p class="item-title">Lil Burguer</p>
+                    <p class="item-description">Incrivelmente saboroso, com ingredientes frescos e combinações perfeitas que fazem cada mordida valer a pena. Uma experiência deliciosa que você vai querer repetir!</p>
+                    
+                    <div class="item-footer">
+                        <p class="item-price">R$10,90</p>
+                        <button class="add-to-cart-btn" 
+                        data-name="Lil Burguer" 
+                        data-price="10.90">
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="menu-item">
+                
+                <img src="./assets/hamb-2.png" alt="Hulk Burger" class="item-image">
+                <div class="item-details">
+                    
+                    <p class="item-title">Hulk Burger</p>
+                    <p class="item-description">Incrivelmente saboroso, com ingredientes frescos e combinações perfeitas que fazem cada mordida valer a pena. Uma experiência deliciosa que você vai querer repetir!</p>
+                    
+                    <div class="item-footer">
+                        <p class="item-price">R$15,90</p>
+                        <button class="add-to-cart-btn" 
+                        data-name="Hulk Burger" 
+                        data-price="15.90">
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                
+                <img src="./assets/hamb-3.png" alt="Pipo Burguer" class="item-image">
+                <div class="item-details">
+                    
+                    <p class="item-title">Pipo Burguer</p>
+                    <p class="item-description">Incrivelmente saboroso, com ingredientes frescos e combinações perfeitas que fazem cada mordida valer a pena. Uma experiência deliciosa que você vai querer repetir!</p>
+                    
+                    <div class="item-footer">
+                        <p class="item-price">R$18,90</p>
+                        <button class="add-to-cart-btn" 
+                        data-name="Pipo Burguer" 
+                        data-price="18.90">
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                
+                <img src="./assets/hamb-4.png" alt="SB Chicken" class="item-image">
+                <div class="item-details">
+                    
+                    <p class="item-title">SB Chicken</p>
+                    <p class="item-description">Incrivelmente saboroso, com ingredientes frescos e combinações perfeitas que fazem cada mordida valer a pena. Uma experiência deliciosa que você vai querer repetir!</p>
+                    
+                    <div class="item-footer">
+                        <p class="item-price">R$19,90</p>
+                        <button class="add-to-cart-btn" 
+                        data-name="SB Chicken" 
+                        data-price="19.90">
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                
+                <img src="./assets/hamb-5.png" alt="Duplo Burguer" class="item-image">
+                <div class="item-details">
+                    
+                    <p class="item-title">Duplo Burguer</p>
+                    <p class="item-description">Incrivelmente saboroso, com ingredientes frescos e combinações perfeitas que fazem cada mordida valer a pena. Uma experiência deliciosa que você vai querer repetir!</p>
+                    
+                    <div class="item-footer">
+                        <p class="item-price">R$34,90</p>
+                        <button class="add-to-cart-btn" 
+                        data-name="Duplo Burguer" 
+                        data-price="34.90">
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                
+                <img src="./assets/hamb-6.png" alt="SB Chicken Duplo" class="item-image">
+                <div class="item-details">
+                    
+                    <p class="item-title">SB Chicken Duplo</p>
+                    <p class="item-description">Incrivelmente saboroso, com ingredientes frescos e combinações perfeitas que fazem cada mordida valer a pena. Uma experiência deliciosa que você vai querer repetir!</p>
+                    
+                    <div class="item-footer">
+                        <p class="item-price">R$29,90</p>
+                        <button class="add-to-cart-btn" 
+                        data-name="SB Chicken Duplo" 
+                        data-price="29.90">
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                
+                <img src="./assets/hamb-7.png" alt="Veggie Supremo" class="item-image">
+                <div class="item-details">
+                    
+                    <p class="item-title">Veggie Supremo</p>
+                    <p class="item-description">Incrivelmente saboroso, com ingredientes frescos e combinações perfeitas que fazem cada mordida valer a pena. Uma experiência deliciosa que você vai querer repetir!</p>
+                    
+                    <div class="item-footer">
+                        <p class="item-price">R$24,90</p>
+                        <button class="add-to-cart-btn" 
+                        data-name="Veggie Supremo" 
+                        data-price="24.90">
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                
+                <img src="./assets/hamb-8.png" alt="SB Burguer" class="item-image">
+                <div class="item-details">
+                    
+                    <p class="item-title">SB Burguer</p>
+                    <p class="item-description">Incrivelmente saboroso, com ingredientes frescos e combinações perfeitas que fazem cada mordida valer a pena. Uma experiência deliciosa que você vai querer repetir!</p>
+                    
+                    <div class="item-footer">
+                        <p class="item-price">R$39,90</p>
+                        <button class="add-to-cart-btn" 
+                        data-name="SB Burguer" 
+                        data-price="39.90">
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <div class="drinks-text">
+                <h2>Bebidas</h2>
+            </div>
+
+        <div class="menu-container">
+            <div class="menu-item">
+                
+                <img src="./assets/coca.png" alt="Lil Burguer" class="item-image">
+                <div class="item-details">
+                    
+                    <p class="item-title">Coca-Cola (Lata)</p>
+                    <p class="item-description"></p>
+                    
+                    <div class="item-footer">
+                        <p class="item-price">R$5,00</p>
+                        <button class="add-to-cart-btn" 
+                        data-name="Coca-Cola (Lata)" 
+                        data-price="5.00">
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                
+                <img src="./assets/guarana.png" alt="Lil Burguer" class="item-image">
+                <div class="item-details">
+                    
+                    <p class="item-title">Guaraná Antártica (Lata)</p>
+                    <p class="item-description"></p>
+                    
+                    <div class="item-footer">
+                        <p class="item-price">R$5,00</p>
+                        <button class="add-to-cart-btn" 
+                        data-name="Guaraná Antártica (Lata)" 
+                        data-price="5.00">
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                
+                <img src="./assets/laranja.png" alt="Lil Burguer" class="item-image">
+                <div class="item-details">
+                    
+                    <p class="item-title">Fanta Laranja (Lata)</p>
+                    <p class="item-description"></p>
+                    
+                    <div class="item-footer">
+                        <p class="item-price">R$5,00</p>
+                        <button class="add-to-cart-btn" 
+                        data-name="Fanta Laranja (Lata)" 
+                        data-price="5.00">
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                
+                <img src="./assets/uva.png" alt="Lil Burguer" class="item-image">
+                <div class="item-details">
+                    
+                    <p class="item-title">Fanta Uva (Lata)</p>
+                    <p class="item-description"></p>
+                    
+                    <div class="item-footer">
+                        <p class="item-price">R$5,00</p>
+                        <button class="add-to-cart-btn" 
+                        data-name="Fanta Uva (Lata)" 
+                        data-price="5.00">
+                            <i class="fa-solid fa-cart-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="modal-overlay hidden" id="cart-modal">
+
+        <div class="modal-content">
+
+            <h2 class="modal-title">Meu Carrinho</h2>
+
+            <div id="cart-items" class="cart-items"></div>
+
+            <p class="total-text">Total: <span id="cart-total">0.00</span></p>
+
+            <p class="address-label">Endereço de entrega: </p>
+
+            <input type="text" placeholder="Digite seu endereço completo" id="address" class="address-input">
+
+            <p class="address-warn hidden" id="address-warn">Digite seu endereço completo!</p>
+            
+            <div class="modal-buttons">
+                <button id="close-modal-btn">Fechar</button>
+                <button id="checkout-btn" class="checkout-button">Finalizar pedido</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <button class="cart-btn">
+            (<span id="cart-count">0</span>)
+            Carrinho
+            <i class="fa-solid fa-cart-shopping"></i>
+        </button>
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
