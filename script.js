@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 duration: 3000,
                 close: true,
                 gravity: 'top',
-                position: 'right',
+                position: 'left',
                 stopOnFocus: true,
                 style: {
                     background: '#ef4444',
@@ -150,7 +150,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 duration: 3000,
                 close: true,
                 gravity: 'top',
-                position: 'right',
+                position: 'left',
                 stopOnFocus: true,
                 style: {
                     background: '#ef4444',

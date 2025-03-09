@@ -17,10 +17,14 @@
             <a href="/" class="logo"> <img src="/assets/logo.png" alt="Seu Burguer logo"></a>
             <ul class="nav-menu">
                 <li class="nav-item"><a href="#home">Home</a></li>
-                <li class="nav-item"><a href="#">Sobre nós</a></li>
+                <li class="nav-item"><a href="#about-us">Sobre nós</a></li>
                 <li class="nav-item"><a href="#cardapio">Cardápio</a></li>
-                <li class="nav-item"><a href="#">Contato</a></li>
-                <i class='bx bx-search'></i>
+                <li class="nav-item"><a href="#contact">Contato</a></li>
+                <li>
+                    <button class="cart-btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    (<span id="cart-count">0</span>)
+                </button></li>
             </ul>
             <div class="menu-icon">
                 <span class="bar"></span>
@@ -310,13 +314,34 @@
         </div>
     </div>
 
-    <footer>
-        <button class="cart-btn">
-            (<span id="cart-count">0</span>)
-            Carrinho
-            <i class="fa-solid fa-cart-shopping"></i>
-        </button>
-    </footer>
+    <section id="about-us">
+        <h2>Sobre nós</h2>
+        <p>Bem-vindo à Seu Burguer, onde cada hambúrguer é uma experiência única! Nossa história começou com uma paixão 
+            simples: transformar o ato de comer em um momento memorável. Aqui, não servimos apenas hambúrgueres; criamos 
+            conexões através de sabores autênticos, ingredientes frescos e muito amor. Nossa equipe é movida pela missão de 
+            reinventar o clássico hambúrguer, combinando tradição e criatividade. Dos blends exclusivos de carnes aos combos 
+            vegetarianos surpreendentes, cada detalhe é pensado para encantar seu paladar. Acreditamos que um bom hambúrguer 
+            não alimenta só o corpo, mas também a alma. Venha fazer parte da nossa família e descubra por que somos mais do que 
+            uma hamburgueria: somos um pedacinho do seu dia que você vai querer repetir sempre.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contato</h2>
+        <div class="contact-buttons">
+            <a href="https://web.whatsapp.com/" class="contact-button" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>Whatsapp</span>
+            </a>
+            <a href="https://www.instagram.com/" class="contact-button" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+                <span>Instagram</span>
+            </a>
+            <a href="/" class="contact-button">
+                <i class="fa-regular fa-envelope"></i>
+                <span>E-mail</span>
+            </a>
+        </div>
+    </section>
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="script.js"></script>
