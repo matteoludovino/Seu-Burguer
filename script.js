@@ -186,7 +186,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function checkRestaurantOpen() {
         const data = new Date();
         const hora = data.getHours();
-        return hora >= 17 && hora < 23;
+        return hora >= 18 && hora < 23;
     }
 
     function updateRestaurantStatus() {
