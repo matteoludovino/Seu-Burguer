@@ -27,3 +27,8 @@ With a user-friendly interface, customers can easily browse mouthwatering option
 
 ## 🔗 Resources
 - **Website**: <a href="https://seu-burguer.vercel.app/">Click here!</a>
+
+---
+<div align="center">
+  <p>Made with ❤️ by Matteo Ludovino</p>
+</div>
