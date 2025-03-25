@@ -17,7 +17,8 @@
 </div>
 
 ## 🧩 What is Seu Burguer?
-Seu Burguer is a online menu, designed specifically for a restaurant who sells hamburguers.
+Seu Burguer, the perfect digital menu designed exclusively for burger lovers! Our platform offers a seamless and interactive way to explore delicious burgers, sides, and drinks from your favorite restaurant.
+With a user-friendly interface, customers can easily browse mouthwatering options, check detailed descriptions, customize orders, and even see high-quality images of each item. 
 
 ## 🚀 Features
 - **Modern UI**: Built with CSS
