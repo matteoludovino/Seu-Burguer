@@ -173,7 +173,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
         const encodedMessage = encodeURIComponent(message);
     
-        const phone = '5532999150227';
+        const phone = '5521998087818';
     
         const whatsappLink = `https://wa.me/${phone}?text=${encodedMessage}`;
     
